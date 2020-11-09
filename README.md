@@ -105,7 +105,7 @@
    ```
 1. Given four numbers, assign them to two points (x1, y1), (x2, y2) such that the distance between them will be the maximal one. Return that distance.
     e.g., `[1, 5, 9, 17]` can be assigned as `(1, 9), (5, 17)`, `(1, 5) (9, 17)` or `(1, 17), (5, 9)`
-    **Do not** check every option. Find a different way.
+    **Do not** check every possible option. Find a better way.
    ```C++
    float maxDistance(float f1, float f2, float f3, float f4);
    ```
