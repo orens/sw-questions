@@ -4,7 +4,7 @@
 - Make sure you have a working compilation environment. Visual Studio is a good option: https://visualstudio.microsoft.com/vs/community/
 - Try to write tests, even simple ones (example in the first question).
 - Aside from Medium 3, 4, try to use the standard library, when applicable. For questions 3,4 you can use everything but the standard collections.
-- I tried to make the order of questions incremental and contextual. That said, feel free to choosethe best order for you.
+- I tried to make the order of questions incremental and contextual. That said, feel free to choose the best order for you.
 - If you get stuck on something, let me know and I'll point you to the right direction.
 - Drink coffee. It's bad for your health but good for your programming skills :)
 - **Good Luck**
@@ -40,7 +40,7 @@
    ```C++
    bool isPalindrome(std::string s);
    ```
-1. Given a string, find the length of the longest sequence of identical characters(e.g., `f("abccbbgkkklrkk")` will return 3
+1. Given a string, find the length of the longest sequence of identical characters (e.g., `f("abccbbgkkklrkk")` will return 3
    ```C++
    int findLengthOfLongestSequence(std::string s);
    ```
