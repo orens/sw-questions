@@ -18,7 +18,7 @@
     ```C++
     int main()
     {
-        std::vector myVec;
+        std::vector<int> myVec;
         myVec.push_back(10);
         cout << findMaxIndex(myVec) << endl; // prints 0
         myVec.push_back(1);
