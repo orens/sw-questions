@@ -12,7 +12,7 @@
 
 1. find the index of the maximum value in an integer array
    ```C++
-   int findMaxIndex(std::vector v);
+   int findMaxIndex(std::vector<int> v);
    ```
    Test it with this code:
     ```C++
