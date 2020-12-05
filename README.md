@@ -65,16 +65,15 @@
     ```C++
     bool isBalancedParentheses(std::string s);
     ```
-1. Write the same function but now support these types of parentheses as well: `( ) [ ] { }`. **Note:** you have to make sure there is no type mismatch between openning and closing parentheses.
-For all the following will return `true`: `([{}])`, `{{{}}}`, `[]{}(({}))`
-For all the following will return `false`: `([{)])`, `}{{{{}}}`, `[]({)}{}(({}))`
+1. Write the same function but now support these types of parentheses as well: `( ) [ ] { }`. **Note:** you have to make sure there is no type mismatch between openning and closing parentheses.  
+    For all the following will return `true`: `([{}])`, `{{{}}}`, `[]{}(({}))`  
+    For all the following will return `false`: `([{)])`, `}{{{{}}}`, `[]({)}{}(({}))`  
     ```C++
     bool isBalancedParentheses(std::string s);
     ```
-1. Write the same function but now add support for pipe parentheses: `|`. In these kind, the same charecter can by the openner or closer.
-
-For all the following will return `true`: `([{||}])`, `{|{||{||}}|}`, `|[]|{}(({}))`
-For all the following will return `false`: `([{)])`, `}{{{{}}}`, `[]({)}{}(({}))`, `([{||}|)`, `{|{||{||}}}`, `|[]||{}(({}))`
+1. Write the same function but now add support for pipe parentheses: `|`. In these kind, the same charecter can by the openner or closer.  
+For all the following will return `true`: `([{||}])`, `{|{||{||}}|}`, `|[]|{}(({}))`  
+For all the following will return `false`: `([{)])`, `}{{{{}}}`, `[]({)}{}(({}))`, `([{||}|)`, `{|{||{||}}}`, `|[]||{}(({}))`  
     ```C++
     bool isBalancedParentheses(std::string s);
     ```
