@@ -18,7 +18,7 @@
     ```C++
     int main()
     {
-        std::vector<int> myVec;
+        std::vector myVec;
         myVec.push_back(10);
         cout << findMaxIndex(myVec) << endl; // prints 0
         myVec.push_back(1);
@@ -62,6 +62,19 @@
    int findLongestZerosLengthInBinary(unsigned int i);
    ```
 1. Write a function that returns true if the given string is a balanced sequence of Parentheses (e.g., `"((())())()"`, but **not** `"(())())"`
+    ```C++
+    bool isBalancedParentheses(std::string s);
+    ```
+1. Write the same function but now support these types of parentheses as well: `( ) [ ] { }`. **Note:** you have to make sure there is no type mismatch between openning and closing parentheses.
+For all the following will return `true`: `([{}])`, `{{{}}}`, `[]{}(({}))`
+For all the following will return `false`: `([{)])`, `}{{{{}}}`, `[]({)}{}(({}))`
+    ```C++
+    bool isBalancedParentheses(std::string s);
+    ```
+1. Write the same function but now add support for pipe parentheses: `|`. In these kind, the same charecter can by the openner or closer.
+
+For all the following will return `true`: `([{||}])`, `{|{||{||}}|}`, `|[]|{}(({}))`
+For all the following will return `false`: `([{)])`, `}{{{{}}}`, `[]({)}{}(({}))`, `([{||}|)`, `{|{||{||}}}`, `|[]||{}(({}))`
     ```C++
     bool isBalancedParentheses(std::string s);
     ```
